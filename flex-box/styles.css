@@ -19,15 +19,18 @@ body{
   display:flex;
 
   /* Flex-direction is use for change the direction of the main axis */
-  flex-direction: column;
-  height:40rem;
+  flex-direction: row;
   background-color: #f4f4f4;
 
   /* Justify content is on the main axis */
-  justify-content: center;
+  /* justify-content: start; */
 
   /* Align-items is on the cross axis */
-  align-items: start;
+  /* align-items: start */;
+
+  /* With flexwrap we can do that the item
+  that does not fit go to the next line */
+  /* flex-wrap: wrap; */
 }
 
 
